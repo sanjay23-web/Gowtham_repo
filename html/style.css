@@ -1,0 +1,15 @@
+.a1{
+    display: block;
+    justify-content: center;
+    font: 1em sans-serif;
+    background-color: rgb(127, 191, 170);
+    font-size: 55px;
+    margin-left: 100px ;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    align-content: center;
+    padding: 50px 50px ;
+    padding-left: 300px;
+    padding-right: 200px;
+}
