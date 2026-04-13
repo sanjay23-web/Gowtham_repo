@@ -1,0 +1,22 @@
+#d1{
+    color: royalblue;
+    background-color: lightsalmon;
+    font-size: medium;
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+}
+#s1{
+    color: red;
+    background-color: rgb(13, 110, 12);
+    font-size: medium;
+    display: block;
+    width: 100px;
+    height:100px;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;  
+}
+
+

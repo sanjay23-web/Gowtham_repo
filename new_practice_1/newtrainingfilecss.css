@@ -1,0 +1,47 @@
+h1{
+    text-shadow: 2px 2px 4px brown;
+}
+.a1{
+width: 100px;
+height: 100px;
+background-color: rgb(29, 9, 244);   
+box-shadow: 3px 3px 5px;
+}
+body{
+    margin: 80px 81px 80px 80px;
+    border: 3px solid black;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(250, 71, 71);
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(134, 234, 34);
+    margin-bottom: 20px;
+}
+#img1{
+    height: 100px;
+    float: left;
+margin-left: 20px;
+}
+.b3{
+    border: 2px solid ;
+    height: 75px;
+    overflow: scroll;
+    overflow: auto;
+}
+#d1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(27, 212, 129);
+    
+}
+#s1{
+    color: rgb(16, 189, 232);
+}
