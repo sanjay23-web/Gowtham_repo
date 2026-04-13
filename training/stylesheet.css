@@ -1,0 +1,17 @@
+pre{
+   background-color: ghostwhite; 
+}
+main{
+    font-style: italic;
+    background-color: gold;
+}
+#p1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+}
+#p2{
+    background-color: rgb(231, 128, 3);
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+}
