@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.home-header{
+    background-color: rgb(241, 250, 249);
+    padding: 5px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+
+}
+.home-nav{
+    padding: 5px;
+    gap: 1.5rem;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.nav-link{
+    color:rgb(53, 137, 233);
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 0.6;
+    letter-spacing: -0.2px;
+    position: relative;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.nav-link:hover{
+    color: dimgray;
+}
+.nav-link:visited{
+    color: black;
+}
+
+
+.para {
+    padding-left: 50px;
+    margin-top: 50px;
+    width: 500px;
+    height: 80vh;
+    margin-bottom: 50px;
+}
+.imagetag {
+    margin-left: 600px;
+    margin-top: -300px;
+}
+.foot {
+    margin-top: 100px;
+    width: 800px;
+    height: 20vh;
+    background-color: aliceblue;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px, 1fr));
+    background-color: rgb(226, 114, 245);
+    gap: 2rem;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 50px;
+    border-radius: 20px;
+
+}
+.products-cards {
+    margin-left: 20px;
+    background-color:rgba(84, 4, 133, 0.899) ;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.leftpar {
+    padding: 50px;
+    margin-right: 500px;
+
+}
+.imag {
+    margin-left: 600px;
+    margin-top: -300px;
+
+}
+.imeg {
+    padding:10px;
+    margin-top: 100px;
+
+}
+.rightpar {
+    padding: 50px;
+    margin-left: 500px;
+    margin-top: -300px;
+
+
+}
+
+
