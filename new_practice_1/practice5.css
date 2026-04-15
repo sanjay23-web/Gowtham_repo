@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    display: block;
+    background-color: aqua;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(92, 125, 244);
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.navbar a {
+    color: rgb(244, 244, 244);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align:center;
+    margin-left: 90px;
+}
+
+.navbar a:hover {
+    background-color: rgb(20, 2, 2);
+}
+.navbar li {
+    float: left;
+    
+
+}
+
+aside {
+    width: 20%;
+    float: left;
+}
+section {
+    width: 40%;
+    float: left;
+
+}
+article {
+    width: 40%;
+    float: left;
+}
