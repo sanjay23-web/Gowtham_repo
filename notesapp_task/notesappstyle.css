@@ -1,0 +1,24 @@
+.block1 {
+    background-color: #9ef0fb;
+    border-color: black;
+    text-align:center;
+    padding: 50px;
+
+}
+
+.block2 {
+    background-color: hsl(210, 12%, 97%);
+    padding: 100px;
+    margin-top: 50px ;
+    margin-right: 500px;
+    border-radius: 50px;
+    
+}
+.notes1 {
+    text-align: left;
+}
+.image1 {
+    width: 40px;
+    height: 50px;
+    display: inline-flex;
+}
