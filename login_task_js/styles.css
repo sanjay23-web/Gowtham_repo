@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('background.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+
+}
+header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    font-size: 2em;
+    color: rgb(27, 1, 1);
+    user-select: none;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.5em;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+    
+}
+
+
+
+.navigation a ::after{
+    position: absolute;
+    content:'';
+    left:0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after{
+    background-color: rgb(13, 1, 1);
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.btn-loginpopup {
+    margin-left: 40px;
+    padding: 10px 20px;
+    background-color:  rgb(254, 82, 82);
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+
+   
+}
+.btn-loginpopup:hover {
+    background-color: white;
+    color: rgb(13, 1, 1);
+}
+
+
+.wrapper {
+    margin-top: 90px;
+    position: relative;
+    background: transparent;
+    border-radius: 20px;
+    width: 400px;
+    height: 440px;
+    border: 2px solid rgb(255,255,255,.5);
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height .5s ease,height .2s ease;
+    overflow: hidden;
+    transform: scale(0);
+    z-index: 100;
+  
+}
+
+
+.wrapper.active-popup {
+    transform: scale(1);
+    
+}
+
+.wrapper h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label {
+    position: absolute;
+   
+    bottom: 35px;
+    left: 30px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color:black;
+    pointer-events: none;
+
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid rgb(255,255,255,.5);
+    border-radius: 20px;
+    color: white;
+    font-size: 1em;
+}
+
+
+.remember-forgot {
+    font-size: .9em;
+    color: black;
+    font-weight: 500;
+    margin:-15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.remember-forgot label input {
+    accent-color: black;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: black;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+    color: seashell;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: rgb(243, 238, 238);
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.btn:hover {
+    background: rgb(11, 1, 1);
+    color: white;
+   
+}
+
+.login-register {
+    text-decoration: none;
+    color: black;
+   
+  
+
+}
+
+.register-link {
+    color: black;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+    color: seashell;
+
+}
+
+
+.icon-close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 25px;
+    cursor: pointer;
+    font-size: 2em;
+
+    
+}
+
+.form-box login{
+    display: none;
+}
+
+
+#logg {
+    /* display: none; */
+
+    transition: transform .18s ease;
+    transform: translateX(0);
+
+
+}
+
+#regg {
+    position: absolute;
+    transform: translateX(400px);
+    transition: none;
+}
+
+.wrapper.active {
+    height: 500px;
+}
+
+.wrapper.active.form-box.login {
+    transition: none;
+    transform: translateX(-400px);
+}
+
+.wrapper.active.form-box.register {
+    transition: none;
+    transform: translateX(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+.wrapper.active #logg {
+    transition: transform .18s ease;
+    transform: translateX(-400px);
+}
+
+.wrapper.active #regg {
+    transition: transform .18s ease;
+    transform: translateX(0); /* Move register in */
+}
+
+#regg {
+    position: absolute;
+    width: 100%; /* Ensure it fits the wrapper */
+    padding: 40px;
+    transform: translateX(400px);
+    transition: transform .18s ease;
+}
+
+#logg {
+    width: 100%;
+    padding: 40px;
+    transition: transform .18s ease;
+}
