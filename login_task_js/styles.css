@@ -189,6 +189,7 @@ header {
 .login-register {
     text-decoration: none;
     color: black;
+    
    
   
 
@@ -274,7 +275,7 @@ header {
 #regg {
     position: absolute;
     width: 100%; /* Ensure it fits the wrapper */
-    padding: 40px;
+    padding: 50px;
     transform: translateX(400px);
     transition: transform .18s ease;
 }

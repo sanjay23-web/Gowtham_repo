@@ -37,10 +37,12 @@ regbtn.addEventListener('click', (e) => {
     e.preventDefault();
     const username = document.getElementById('reg-user').value;
     const password = document.getElementById('reg-pass').value;
+    const email = document.getElementById('reg-email').value;
 
-    if (username && password) {
+    if (username && password && email) {
         localStorage.setItem('user', username);
         localStorage.setItem('pass', password);
+        localStorage.setItem('email', email);
         alert('Registration successful! welcome'+ username );
         wrapper.classList.remove('active');
     } else {
