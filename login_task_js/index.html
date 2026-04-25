@@ -12,9 +12,9 @@
     <header>
         <h2 class="logo">Logo</h2>
         <nav class="navigation">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
+            <a href="homep.html" target="_blank">Home</a>
+            <a href="aboutp.html" target="_blank">About</a>
+            <a href="#"target="_blank">Services</a>
             <a href="#">Contact</a>
             <button class="btn-loginpopup">Login</button>
 
@@ -45,12 +45,12 @@
             <form action="#">
                 <div class="input-box">
                     <span class="icon"><span class="icon"><ion-icon name="mail-outline"></ion-icon></span></span>
-                    <input type="email" required>
+                    <input type="email" id="login-email" required>
                     <label>Email</label>
                 </div><br>
                 <div class="input-box">
                     <span class="icon"><span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span></span>
-                    <input type="password" required>
+                    <input type="password" id="login-pass" required>
                     <label>Password</label>
                 </div><br><br>
                 <div class="remember-forgot">
@@ -59,7 +59,7 @@
                 </div><br>
 
 
-                <button type="submit" class="btn">Login</button><br>
+                <button type="submit" class="btn" id="login-btn">Login</button><br>
 
                 <div class="login-register">
                     <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
@@ -76,12 +76,12 @@
             <form action="#">
                 <div class="input-box">
                     <span class="icon"><span class="icon"><ion-icon name="people-outline"></ion-icon></span></span>
-                    <input type="text" required>
+                    <input type="text" id="reg-user" required>
                     <label>Username</label>
                 </div><br>
                 <div class="input-box">
                     <span class="icon"><span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span></span>
-                    <input type="password" required>
+                    <input type="password" id = "reg-pass" required>
                     <label>Password</label>
                 </div><br><br>
                 <div class="remember-forgot">
@@ -90,7 +90,7 @@
                 </div><br>
 
 
-                <button type="submit" class="btn">Register</button><br>
+                <button type="submit" class="btn" id="reg-btn">Register</button><br>
 
                 <div class="login-register">
                     <p>already have an account? <a href="#" class="login-link">Login</a></p>
