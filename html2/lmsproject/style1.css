@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+
+header {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 70px;
+}
+
+
+.navbar ul {
+    background-color: darkgrey;
+    list-style-type: none;
+    display: flex;
+    padding: 50px;
+    
+    
+    
+    
+}
+
+.content a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 70px;
+    text-align: center;
+    margin-left: 130px;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 25px;
+    
+    
+    
+}
+
+.mainarea {
+    padding: 250px;
+    font-size: 25px;
+    
+}
+
+.mainaread img {
+    margin-left: 20px;
+
+}
+
+.mainaread {
+    text-align: center;
+    padding: 200px;
+    font-size: 50px;
+    
+    
+}
+.mainaread pre {
+    font-size: x-large;
+}
+
+.navbar li a:hover {
+    
+    color:  aqua;
+}
+
+
+.content-cards {
+    margin-left: 20px;
+    background-color:rgb(242, 247, 247);
+    color: black;
+    padding: 30px;
+    border-radius: 20px;
+    
+
+}
+
+.contents {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 170px;
+    border-radius: 20px;
+
+}
+
+
+body {
+    background-image: url(/images/bg.jpg);
+}
